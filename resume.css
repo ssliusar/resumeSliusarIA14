@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.worker {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.job {
+    color: #333;
+}
+
+.name {
+    color: #000;
+}
+
+.info {
+    color: #666;
+}
+
+.works {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.Projects {
+    color: #333;
+}
+
+.Projects ol {
+    list-style: none;
+    padding: 0;
+}
+
+.htttps {
+    margin-bottom: 10px;
+}
+
+.experiences {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.experiences-one-only {
+    margin-top: 20px;
+}
+
+.experiences-one-only-name {
+    color: #333;
+}
+
+.experiences-one-only-name-data {
+    color: #666;
+}
+
+.experiences-one-only-name-data-info {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.education {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.education-name {
+    color: #333;
+}
+
+.education-name-place-info {
+    color: #666;
+}
+
+.info-my {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.contacts {
+    margin-top: 20px;
+}
+
+.contacts-name, .tech-name, .soft-name {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contacts-name-phone a, .contacts-name-phone-amail a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.tech-name-list, .soft-name-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .info-my {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
